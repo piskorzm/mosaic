@@ -10,12 +10,14 @@ Marcin Piskorz
 
 
 Jak używać usługę:
-1. Otworzyć główny folder w terminalu.
+1. Upewnić się, że Python oraz poackage manager PIP są zainstalowane na komputerze.
 
-2. Zainstalować wymagane biblioteki python przy użyciu komendy: 
+2. Otworzyć główny folder w terminalu.
+
+3. Zainstalować wymagane biblioteki python przy użyciu komendy: 
 	pip install -r requirements.txt
 	
-3. Uruchomić usługę przy użyciu komendy: 
+4. Uruchomić usługę przy użyciu komendy: 
 	python server.py
 	
-4. Otworzyć strone HTML znajdującą się w folderze 'demo' i wygenerować mozaikę.
+5. Otworzyć strone HTML znajdującą się w folderze 'demo' i wygenerować mozaikę.
