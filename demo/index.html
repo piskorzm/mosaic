@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <title>Mozaika demo</title>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div style="text-align: center">
+			<img src='logo.jpg'></img>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">Losowo:</div>
+            <div class="col-10">
+                <input type="checkbox" id="losowo" checked> <br> <br>
+            </div>
+            <label for="width" class="col-2 col-form-label">Szerokość:</label>
+            <div class="col-10">
+                <input type="text" class="form-control" id="width" value="1500"> <br>
+            </div>
+            <label for="height" class="col-2 col-form-label">Wysokość:</label>
+            <div class="col-10">
+                <input type="text" class="form-control" id="height" value="1500"> <br>
+            </div>
+            <label for="color" class="col-2 col-form-label">Kolor tła (R,G,B):</label>
+            <div class="col-10">
+                <input type="text" class="form-control" id="color" value="255,100,0"> <br>
+            </div>
+            <label for="url1" class="col-2 col-form-label">URL 1:</label>
+            <div class="col-10">
+                <input type="text" class="form-control" id="url1" value="http://2.bp.blogspot.com/-CmBgofK7QzU/TVj3u3N1h2I/AAAAAAAADN8/OszBhGvvXRU/s640/tumblr_lg7h9gpbtP1qap9qio1_500.jpeg"> <br>
+            </div>
+            <label for="url1" class="col-2 col-form-label">URL 2:</label>
+            <div class="col-10">
+                <input type="text" class="form-control" id="url2" value="http://27.media.tumblr.com/tumblr_leald8jntg1qziwcjo1_500.gif"> <br>
+            </div>
+            <label for="url1" class="col-2 col-form-label">URL 3:</label>
+            <div class="col-10">
+                <input type="text" class="form-control" id="url3" value="http://farm6.staticflickr.com/5112/6970631088_f8a396cc6a.jpg"> <br>
+            </div>
+            <label for="url1" class="col-2 col-form-label">URL 4:</label>
+            <div class="col-10">
+                <input type="text" class="form-control" id="url4" value="http://symposia.co.uk/wp-content/uploads/2018/06/auckland.ad-tech-500x500.png"> <br>
+            </div>
+            <label for="url1" class="col-2 col-form-label">URL 5:</label>
+            <div class="col-10">
+                <input type="text" class="form-control" id="url5" value="https://static1.squarespace.com/static/56266630e4b0b9ce33a0cd48/563abf49e4b01e9d160027bc/5b85d548738aec02653c67eb/1535497551943/?format=500w"> <br>
+            </div>
+            <label for="url1" class="col-2 col-form-label">URL 6:</label>
+            <div class="col-10">
+                <input type="text" class="form-control" id="url6" value=""> <br>
+            </div>
+            <label for="url1" class="col-2 col-form-label">URL 7:</label>
+            <div class="col-10">
+                <input type="text" class="form-control" id="url7" value=""> <br>
+            </div>
+            <label for="url1" class="col-2 col-form-label">URL 8:</label>
+            <div class="col-10">
+                <input type="text" class="form-control" id="url8" value=""> <br>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary btn-lg btn-block" id="generate" onclick="requestImage()">Generuj mozaikę!</button> <br>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
