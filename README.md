@@ -10,7 +10,7 @@ Marcin Piskorz
 
 
 Jak używać usługę:
-1. Upewnić się, że Python oraz poackage manager PIP są zainstalowane na komputerze.
+1. Upewnić się, że Python oraz package manager PIP są zainstalowane na komputerze.
 
 2. Otworzyć główny folder w terminalu.
 
