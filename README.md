@@ -1,3 +1,5 @@
+Rozwiazanie zadania allegro_software_developer_intern-Poznan
+
 Dzień dobry,
 Do stworzenia usługi użyłem języka Python, micro frameworka Flask oraz biblioteki Pillow.
 Rozwiązanie spełnia wszystkie wymagania specyfikacji podanej w zadaniu, wraz z walidacją requesta.
